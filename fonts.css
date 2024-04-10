@@ -1,0 +1,36 @@
+﻿/* --------------- reset.css --------------- */
+@font-face {
+	font-family:'disneypark';
+	src: url(fonts/disneypark.ttf) format('ttf'),
+		 url(fonts/disneypark.woff) format('woff');
+}
+@font-face {
+	font-family:'cyrillicold';
+	src: url(fonts/cyrillicold.ttf) format('ttf'),
+		 url(fonts/cyrillicold.woff) format('woff');
+}
+@font-face {
+	font-family:'lobster';
+	src: url(fonts/lobster.ttf) format('ttf'),
+		 url(fonts/lobster.woff) format('woff');
+}
+@font-face {
+	font-family:'memorandum';
+	src: url(fonts/memorandum.ttf) format('ttf'),
+		 url(fonts/memorandum.woff) format('woff');
+}
+@font-face {
+	font-family:'marckscript';
+	src: url(fonts/MarckScript-Regular.ttf) format('ttf'),
+		 url(fonts/MarckScript-Regular.woff) format('woff');
+}
+@font-face {
+	font-family:'balsamiqsans';
+	src: url(fonts/BalsamiqSans-Regular.ttf) format('ttf'),
+		 url(fonts/BalsamiqSans-Regular.woff) format('woff');
+}
+@font-face {
+	font-family:'comfortaabold';
+	src: url(fonts/Comfortaa-Bold.ttf) format('ttf'),
+		 url(fonts/Comfortaa-Bold.woff) format('woff');
+}

@@ -1,0 +1,275 @@
+﻿/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+	form {
+		width: 90%;
+		margin-left: 5%;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.book_inst {
+		position: relative;
+		display: flex;
+	}
+	.booking {
+		position: relative;
+		top: 0%;
+		left: 5%;
+		width: 40%;
+		height: 40%;
+	}
+	.booking a img {
+		position: relative;
+	}
+	
+	.instagram {
+		visibility: hidden;
+		position: relative;
+		animation: instagr 1s ease-in-out 1s 1 forwards;
+	}
+
+@keyframes instagr {
+  0% {
+  	visibility: visible;
+  	top: 30%;
+	left: 25%;
+	width: 40px;
+  } 
+  100% {
+  	visibility: visible;
+  	top: 0%;
+	left: 15%;
+	width: 30%;
+  } 
+}
+
+}
+
+@media only screen and (max-width: 985px) {
+	form .left {
+		width: 80%;
+	}
+
+	footer .footerup .copyright, footer .footerup .contacts {
+	font-size: 25px;
+	padding-left: 20px;
+	}
+footer .footerup .share {
+	font-size: 25px;
+	}
+}
+@media only screen and (max-width: 865px) {
+	form {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 450px) {
+	form .left {
+		flex-direction: column;
+	}
+	.f1, .f2 {
+	width: 100%;
+	margin-top: 20px;
+	}
+	.Pushkin .text {
+		padding-left: 10px;
+		font-size: 20px;
+	}
+	.rewiev .title {
+		font-size: 18px;
+		margin-bottom: 5px;
+		padding-top: 20px;
+	}
+	.rewiev .title .ball {
+		width: 30px;
+		height: 30px;
+		margin-left: 20px;
+		line-height: 180%;
+		border: 6px solid rgb(250, 120, 0);
+	}
+	.rewiev .text .grade {
+		font-size: 18px;
+	}
+	.rewiev .text {
+		font-size: 18px;
+		line-height: 100%;
+	}
+
+}
+@media only screen and (max-width: 370px) {
+	.back {
+		width: 80%;
+		font-size: 18px;
+	}
+	.back h1:first-letter{
+		font-size: 21px;
+	}
+	form.form {
+		width: 100%;
+		margin-left: 0;
+	}
+	.f1 input[type=text], .f2 input[type=email], .f3 textarea[id=message] {
+	font-size: 14px;
+	}
+}
+@media only screen and (max-width: 670px) {
+
+ .burger-menu {
+	display: block;
+}
+nav {
+	display: none;
+}	
+
+.burger-menu__nav {
+	position: absolute;
+    z-index: 20;
+	display: flex;
+	left: -100%;
+    width: 120px;
+}    
+.burger-menu_active .burger-menu__nav {
+	left: 10px;
+    top: 120px;
+}    
+.burger-menu__nav ul{
+	display: flex;
+    flex-direction: column;
+    font-family:cyrillicold, arial, colibry;
+	background-color: rgba(145, 205, 235, .9); 
+    text-align: center;
+    border-radius: 10px;
+ }  
+.burger-menu__nav ul li {
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}   
+.burger-menu__nav ul li:first-letter {
+        color: red;
+}    
+.burger-menu__nav .active a {
+	background-color: #C48F14;
+}    
+.burger-menu__link {
+	font-size: 16px;
+	text-decoration: none;
+	color: #000;
+}
+.burger-menu__nav ul li:hover {
+	cursor: pointer;
+    background-color: darkblue;
+} 
+ .burger-menu__nav ul li:hover a {
+	background-color: darkblue;
+    color: cornsilk;
+} 
+.burger-menu__button {
+	position: fixed;
+	top:10px;
+	right: 20px;
+	z-index: 30;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, .3); 
+}
+.burger-menu__button:hover {
+	background-color:#C48F14;
+}
+.burger-menu__lines,
+.burger-menu__lines:after,
+.burger-menu__lines:before {
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background-color: #2E0C94;
+	border: 1px solid gold;
+}
+.burger-menu__lines {
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.burger-menu__lines:before {
+	content: '';
+	top:-10px;
+	left: -1px;
+}
+.burger-menu__lines:after {
+	content: '';
+	top:8px;
+	left: -1px;
+}
+.burger-menu_active .burger-menu__lines {
+	background-color:transparent;
+	border: none;
+}
+.burger-menu_active .burger-menu__lines::before {
+	top:0;
+	transform: rotate(45deg);
+}
+.burger-menu_active .burger-menu__lines::after {
+	top:0;
+	transform: rotate(-45deg);
+}
+
+header .logo {
+	width:60px; 
+	height:85px;
+	-webkit-background-size: 60px 85px;
+	background-size: 60px 85px;
+}   
+
+form {
+	width:80%;
+	margin-left:10%;	
+}
+input[type=text], input[type=email], textarea[id=message] {
+	font-size: 1.1rem;
+}
+input[type=submit], input[type=reset] {
+	font-size: 17px;
+}
+footer .share p {
+	display:none;
+}
+footer .footerup {
+	flex-direction: column;
+}
+footer .contacts p:nth-child(1) {
+	text-align: right;
+	background-size: 30px 30px;
+	padding-right: 50px;
+	background-position: 98% 40%;
+}
+footer .contacts p:nth-child(2) {
+	text-align: right;
+	background-size: 30px 30px;
+	padding-right: 50px;
+	background-position: 98% 5%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+	
+	
+
+
